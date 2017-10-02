@@ -1,15 +1,13 @@
 #include <ESP8266WiFi.h>
 #include <MicroGear.h>
 
-//dataSource = "TandHFeedonFB"
+const char* ssid = "Bigcamp_FTTx";      //************Change*******************
+const char* password = "bc123456";        //************Change*******************
 
-const char* ssid     = "Bigcamp_FTTx";
-const char* password = "bc123456";
-
-#define APPID   "iotfifi"                   //
-#define KEY     "uAIJYleOIX4fnNl"              //
-#define SECRET  "fc7sYz2kGnlTJB71SXwjtXI6K"   //
-#define ALIAS   "pieled"
+#define APPID "TestLab10"   //************Change*******************
+#define KEY "mEv9YqQdmQdsIsx"     //************Change*******************
+#define SECRET "pvmzq1uFgtB7wXUNrIHFJrqgU"  //************Change*******************
+#define ALIAS "pieled" 
 #define LEDPin D2
 WiFiClient client;
 
